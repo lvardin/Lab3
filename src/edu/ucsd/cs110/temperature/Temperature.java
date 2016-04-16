@@ -5,9 +5,19 @@ package edu.ucsd.cs110.temperature;
  */
 public abstract class Temperature {
 
+    public  float value;
+
     public Temperature(float v)	{
         value = v;
     }
+
+    @Override
+    public String toString()
+    {
+        return (String.valueOf(value));
+    }
+
+
 
     public final float getValue()	{
         return value;
