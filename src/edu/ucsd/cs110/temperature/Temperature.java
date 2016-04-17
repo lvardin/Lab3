@@ -11,11 +11,7 @@ public abstract class Temperature {
         value = v;
     }
 
-    @Override
-    public String toString()
-    {
-        return (String.valueOf(value));
-    }
+
 
 
 

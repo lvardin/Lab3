@@ -25,6 +25,12 @@ public class Celsius extends Temperature {
         return  new Fahrenheit(newTemp);
     }
 
+    @Override
+    public String toString()
+    {
+        return (String.valueOf(value) + " C");
+    }
+
 
 
 }

@@ -24,5 +24,10 @@ public class Fahrenheit extends Temperature {
         return this;
     }
 
+    @Override
+    public String toString()
+    {
+        return (String.valueOf(value) + " F");
+    }
 }
 
