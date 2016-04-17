@@ -1,7 +1,7 @@
 package edu.ucsd.cs110.temperature;
 
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
+import org.junit.*;
+import static org.junit.Assert.*;
 
 
 import edu.ucsd.cs110.temperature.Fahrenheit;
